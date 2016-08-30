@@ -1,0 +1,30 @@
+/*Timothy Peiyao Wu z5120981, Aly Virany N3rdsupr3me 
+Jacob Mikkelsen H17A
+Tute 6 
+Memory 
+*/ 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (int argc, char *argv []){
+
+printf("The number of bytes an int uses is: %hu\n", sizeof(int));
+//prints 4 
+printf("The number of bytes a char uses is: %hu\n", sizeof(char));
+//prints 1 
+printf("The number of bytes an unsigned int uses is: %hu\n", sizeof(long unsigned int));
+//prints 4
+printf("The number of bytes a long long uses is: %hu\n", sizeof(long long int));
+//prints 8
+printf("The number of bytes an unsigned long long uses is: %hu\n", sizeof(long long unsigned int));
+//prints 8
+printf("The number of bytes a float uses is: %hu\n", sizeof(float));
+//prints 4
+printf("The number of bytes an double uses is: %hu\n", sizeof(double));
+//prints 8 
+
+
+  return EXIT_SUCCESS;
+
+} 
